@@ -234,7 +234,9 @@
 
 .field public static final FRONT_CAMCORDER_RESOLUTION_176X144_PREVIEW_WIDTH:I = 0x210
 
-.field public static final FRONT_CAMCORDER_RESOLUTION_1920X1080:Z = true
+.field public static final FRONT_CAMCORDER_RESOLUTION_1920X1080:Z = false
+
+.field public static final FRONT_CAMCORDER_RESOLUTION_320X240:Z = true
 
 .field public static final FRONT_CAMCORDER_RESOLUTION_320X240_PICTURE_HEIGHT:I = 0x300
 
@@ -256,25 +258,25 @@
 
 .field public static final FRONT_CAMCORDER_RESOLUTION_720X480:Z = false
 
-.field public static final FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION:Ljava/lang/String; = "1280x720"
 
-.field public static final FRONT_CAMERA_PICTURE_MAX_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_PICTURE_MAX_RESOLUTION:Ljava/lang/String; = "1392x1392"
 
-.field public static final FRONT_CAMERA_RECORDING_DEFAULT_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_RECORDING_DEFAULT_RESOLUTION:Ljava/lang/String; = "1280x720"
 
-.field public static final FRONT_CAMERA_RECORDING_MAX_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_RECORDING_MAX_RESOLUTION:Ljava/lang/String; = "1280x720"
 
-.field public static final FRONT_CAMERA_RESOLUTION_1072X1072:Z = true
+.field public static final FRONT_CAMERA_RESOLUTION_1072X1072:Z = false
 
-.field public static final FRONT_CAMERA_RESOLUTION_1280X720:Z = false
+.field public static final FRONT_CAMERA_RESOLUTION_1280X720:Z = true
 
 .field public static final FRONT_CAMERA_RESOLUTION_1280X960:Z = false
 
-.field public static final FRONT_CAMERA_RESOLUTION_1392X1392:Z = false
+.field public static final FRONT_CAMERA_RESOLUTION_1392X1392:Z = true
 
-.field public static final FRONT_CAMERA_RESOLUTION_1440X1080:Z = true
+.field public static final FRONT_CAMERA_RESOLUTION_1440X1080:Z = false
 
-.field public static final FRONT_CAMERA_RESOLUTION_1920X1080:Z = true
+.field public static final FRONT_CAMERA_RESOLUTION_1920X1080:Z = false
 
 .field public static final FRONT_CAMERA_RESOLUTION_640X480:Z = true
 

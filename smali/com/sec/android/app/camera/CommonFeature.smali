@@ -824,11 +824,11 @@
 
 .field public static final DUAL_CAMERA_RECORDING_DEFAULT_RESOLUTION:Ljava/lang/String; = "1280x720"
 
-.field public static final DUAL_FRONT_CAMERA_DEFAULT_NORMAL_PICTURESIZE:Ljava/lang/String; = "1440x1080"
+.field public static final DUAL_FRONT_CAMERA_DEFAULT_NORMAL_PICTURESIZE:Ljava/lang/String; = "1280x720"
 
-.field public static final DUAL_FRONT_CAMERA_DEFAULT_SQUARE_PICTURESIZE:Ljava/lang/String; = "1072x1072"
+.field public static final DUAL_FRONT_CAMERA_DEFAULT_SQUARE_PICTURESIZE:Ljava/lang/String; = "1392x1392"
 
-.field public static final DUAL_FRONT_CAMERA_DEFAULT_WIDE_PICTURESIZE:Ljava/lang/String; = "1920x1080"
+.field public static final DUAL_FRONT_CAMERA_DEFAULT_WIDE_PICTURESIZE:Ljava/lang/String; = "1280x720"
 
 .field public static final DUAL_PREVIEW_FPS:I = 0x5dc0
 
@@ -892,7 +892,7 @@
 
 .field public static final FRONT_CAMCORDER_RESOLUTION_176X144_PREVIEW_WIDTH:I = 0x420
 
-.field public static final FRONT_CAMCORDER_RESOLUTION_1920X1080:Z = true
+.field public static final FRONT_CAMCORDER_RESOLUTION_1920X1080:Z = false
 
 .field public static final FRONT_CAMCORDER_RESOLUTION_1920X1080_PICTURE_HEIGHT:I = 0x438
 
@@ -966,31 +966,31 @@
 
 .field public static final FRONT_CAMERA_NO_TIMER_SOUND:Z = false
 
-.field public static final FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION:Ljava/lang/String; = "1280x720"
 
-.field public static final FRONT_CAMERA_PICTURE_MAX_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_PICTURE_MAX_RESOLUTION:Ljava/lang/String; = "1392x1392"
 
 .field public static final FRONT_CAMERA_PREVIEW_FPS_MAX:I = 0x7530
 
 .field public static final FRONT_CAMERA_PREVIEW_FPS_MIN:I = 0x1f40
 
-.field public static final FRONT_CAMERA_RECORDING_DEFAULT_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_RECORDING_DEFAULT_RESOLUTION:Ljava/lang/String; = "1280x720"
 
-.field public static final FRONT_CAMERA_RECORDING_MAX_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final FRONT_CAMERA_RECORDING_MAX_RESOLUTION:Ljava/lang/String; = "1280x720"
 
 .field public static final FRONT_CAMERA_RECORDING_MIN_RESOLUTION:Ljava/lang/String; = "640x480"
 
-.field public static final FRONT_CAMERA_RESOLUTION_1072X1072:Z = true
+.field public static final FRONT_CAMERA_RESOLUTION_1072X1072:Z = false
 
 .field public static final FRONT_CAMERA_RESOLUTION_1248X672:Z = false
 
-.field public static final FRONT_CAMERA_RESOLUTION_1280X720:Z = false
+.field public static final FRONT_CAMERA_RESOLUTION_1280X720:Z = true
 
 .field public static final FRONT_CAMERA_RESOLUTION_1280X960:Z = false
 
-.field public static final FRONT_CAMERA_RESOLUTION_1392X1392:Z = false
+.field public static final FRONT_CAMERA_RESOLUTION_1392X1392:Z = true
 
-.field public static final FRONT_CAMERA_RESOLUTION_1440X1080:Z = true
+.field public static final FRONT_CAMERA_RESOLUTION_1440X1080:Z = false
 
 .field public static final FRONT_CAMERA_RESOLUTION_1440X1440:Z = false
 
@@ -1002,7 +1002,7 @@
 
 .field public static final FRONT_CAMERA_RESOLUTION_1632X880:Z = false
 
-.field public static final FRONT_CAMERA_RESOLUTION_1920X1080:Z = true
+.field public static final FRONT_CAMERA_RESOLUTION_1920X1080:Z = false
 
 .field public static final FRONT_CAMERA_RESOLUTION_1920X1440:Z = false
 
@@ -1130,7 +1130,7 @@
 
 .field public static final MAGIC_SHOT_BACK_RESOLUTION:Ljava/lang/String; = "3264x1836"
 
-.field public static final MAGIC_SHOT_FRONT_RESOLUTION:Ljava/lang/String; = "1920x1080"
+.field public static final MAGIC_SHOT_FRONT_RESOLUTION:Ljava/lang/String; = "1280x720"
 
 .field public static final MAX_HDR_RESOLUTION:Ljava/lang/String; = "3264x2448"
 
