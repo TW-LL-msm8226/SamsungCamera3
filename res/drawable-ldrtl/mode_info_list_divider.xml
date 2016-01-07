@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetRight="99.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="line">
+        <stroke android:width="0.5dip" android:color="@color/mode_info_divider_color" />
+        <size android:height="0.5dip" />
+    </shape>
+</inset>

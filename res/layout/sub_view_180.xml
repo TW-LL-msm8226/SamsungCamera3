@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/subview_layout" android:background="@color/default_subview_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/subview_base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/subview_shortcut2" android:visibility="invisible" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="400.0dip" />
+        <ImageView android:id="@id/subview_shortcut1" android:visibility="invisible" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" />
+        <ImageView android:id="@id/subview_switch" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <ImageView android:id="@id/subview_settings" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <ImageView android:id="@id/subview_pip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/camera_preview_bended_button_rec_pip" android:contentDescription="@string/dual" />
+        <ImageView android:id="@id/subview_focus" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/camera_preview_bended_button_rec_focus" android:contentDescription="@string/F_AUTOFOCUS" />
+    </LinearLayout>
+</FrameLayout>

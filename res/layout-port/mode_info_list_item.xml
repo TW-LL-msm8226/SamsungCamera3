@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="19.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip">
+        <ImageView android:id="@id/mode_image" android:layout_width="@dimen/mode_info_title_width" android:layout_height="100.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="7.0dip" android:contentDescription="@null" />
+        <TextView android:textSize="10.0dip" android:textStyle="normal" android:textColor="@android:color/black" android:gravity="center" android:id="@id/mode_title" android:paddingLeft="2.5dip" android:paddingRight="2.5dip" android:paddingBottom="1.0dip" android:layout_width="@dimen/mode_info_title_width" android:layout_height="25.0dip" android:layout_marginTop="72.0dip" android:fontFamily="sec-roboto" />
+    </FrameLayout>
+    <TextView android:textSize="17.0dip" android:textColor="@color/mode_info_text_color" android:gravity="center_vertical" android:id="@id/mode_description" android:paddingBottom="2.0dip" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:minHeight="92.0dip" android:fontFamily="sec-roboto-light" />
+</LinearLayout>

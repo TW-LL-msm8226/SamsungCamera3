@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/custom_actionbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textSize="17.0dip" android:textColor="?android:actionMenuTextColor" android:layout_gravity="center" android:id="@id/cancel_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="0.5" android:showAsAction="ifRoom|withText" style="?android:attr/actionButtonStyle" />
+    <TextView android:enabled="true" android:textAppearance="?android:actionMenuTextAppearance" android:textSize="17.0dip" android:textColor="?android:actionMenuTextColor" android:layout_gravity="center" android:id="@id/save_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/done" android:layout_weight="0.5" android:showAsAction="ifRoom|withText" style="?android:attr/actionButtonStyle" />
+</LinearLayout>

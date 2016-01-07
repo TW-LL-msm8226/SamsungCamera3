@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="fill_vertical" android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffebebeb" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sec.android.app.shootingmodemanager.views.ShootingModeGridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/gridview" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.5dip" android:layout_marginTop="6.5dip" android:layout_marginRight="6.5dip" android:layout_marginBottom="1.5dip" android:listSelector="@drawable/tw_action_item_background_focused_holo_dark" android:drawSelectorOnTop="true" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:columnWidth="@dimen/effect_width" android:numColumns="6" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/cursorview" android:focusable="false" android:visibility="invisible" android:layout_width="3.0dip" android:layout_height="102.0dip" android:src="@drawable/shooting_mode_thumbnail_cursor" android:scaleType="fitXY" android:contentDescription="@null" />
+        <FrameLayout android:paddingLeft="@dimen/mode_padding_left" android:paddingTop="@dimen/mode_padding_top" android:paddingRight="@dimen/mode_padding_right" android:paddingBottom="@dimen/mode_padding_bottom" android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/mode_shadow_width" android:layout_height="@dimen/mode_shadow_height" android:shadowColor="#ff000000" android:shadowDy="3.0" android:fontFamily="roboto-light">
+            <ImageView android:id="@id/dragview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <ImageView android:id="@id/shadowimage_id" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" style="@style/effect_view_frame_style" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>
