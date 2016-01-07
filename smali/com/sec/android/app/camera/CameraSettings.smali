@@ -7290,7 +7290,7 @@
     .local v0, "cr":Landroid/content/ContentResolver;
     const-string v2, "csc_pref_camcorder_resolution_key"
 
-    const-string v3, "1920x1080"
+    const-string v3, "1280x720"
 
     invoke-static {v3}, Lcom/sec/android/app/camera/CameraResolution;->getResolutionID(Ljava/lang/String;)I
 
@@ -7331,7 +7331,7 @@
 
     .line 4622
     :cond_2
-    const-string v2, "1920x1080"
+    const-string v2, "1280x720"
 
     invoke-static {v2}, Lcom/sec/android/app/camera/CameraResolution;->getResolutionID(Ljava/lang/String;)I
 
